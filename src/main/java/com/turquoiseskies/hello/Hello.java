@@ -3,9 +3,9 @@ package com.turquoiseskies.hello;
 public class Hello {
 
 
-    public static final String HELLO = "Hello";
+    public static final String HELLO_RETURN = "Hello";
 
     String getHello(){
-        return HELLO;
+        return HELLO_RETURN;
     }
 }
