@@ -1,0 +1,16 @@
+language: java
+sudo: false
+install: true
+addons:
+  sonarcloud:
+    organization: "turquoiseskies-github"
+    token:
+      secure: "1de38bbfc00bf0e72725c73ada9e027c15788b79"
+jdk:
+  - oraclejdk8
+script:
+  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar
+cache:
+  directories:
+    - '$HOME/.m2/repository'
+    - '$HOME/.sonar/cache'
