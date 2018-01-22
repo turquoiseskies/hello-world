@@ -1,12 +1,13 @@
 package com.turquoiseskies.hello;
 
 import org.junit.Test;
-import static org.junit.Assert.*;
+
+import static org.junit.Assert.assertEquals;
 
 public class HelloTest {
 
     @Test
-    public void testHello() throws Exception {
+    public void testHello() {
 
         Hello hello = new Hello();
         String helloResult = hello.getHello();
