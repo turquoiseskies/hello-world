@@ -1,1 +1,1 @@
-@Library('pipeline') _
+pipeline {}
