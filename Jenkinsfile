@@ -1,1 +1,1 @@
-myPipeline {}
+myPipeline 
