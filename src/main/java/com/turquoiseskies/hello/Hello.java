@@ -3,10 +3,10 @@ package com.turquoiseskies.hello;
 class Hello {
 
 
-    private static final String HELLO = "Hello";
+    private static final String HELLO_RETURN = "Hello";
 
     @SuppressWarnings("SameReturnValue")
     String getHello(){
-        return HELLO;
+        return HELLO_RETURN;
     }
 }
