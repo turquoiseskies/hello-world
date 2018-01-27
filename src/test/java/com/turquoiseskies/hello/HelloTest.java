@@ -8,7 +8,6 @@ public class HelloTest {
 
     @Test
     public void testHello() {
-
         Hello hello = new Hello();
         String helloResult = hello.getHello();
         assertEquals("Hello", helloResult);
