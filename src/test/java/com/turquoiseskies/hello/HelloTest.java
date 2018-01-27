@@ -11,6 +11,6 @@ public class HelloTest {
 
         Hello hello = new Hello();
         String helloResult = hello.getHello();
-        assertEquals("Hello2", helloResult);
+        assertEquals("Hello", helloResult);
     }
 }
